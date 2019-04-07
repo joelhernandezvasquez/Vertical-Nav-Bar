@@ -1,0 +1,89 @@
+:root
+{
+ --spacing:15px;
+}
+
+.main-container
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    width: 500px;
+    height:700px;
+    background:#555555;
+    border-radius: 10px;
+}
+
+.header
+{
+    width: 100%;
+    height:80px;
+    background:#4caf50;
+}
+
+#hamburger-icon
+{
+  width:50px;
+  float:right; 
+  padding:var(--spacing);
+}
+
+.menu
+{
+    width:100%;
+    height:0px;
+    background:#333333;
+    overflow: hidden;
+    transition: height 0.5s;
+    
+}
+
+.open-menu.menu
+{
+    height:200px;
+}
+.menu ul
+{
+    padding:0px;
+    margin:0px;
+  
+}
+.menu li
+{
+    text-decoration: none;
+    list-style-type: none;
+    font-size:1.8rem;
+    padding:var(--spacing);
+}
+
+.menu a
+{
+    text-decoration: none;
+    color:white;
+    padding: var(--spacing);  
+}
+
+.menu li:hover
+{
+ background:silver;
+}
+
+h2,p
+{
+    color:white;
+    padding:var(--spacing);
+}
+h2
+{
+    font-size:2rem;
+    margin:0px;
+}
+
+p
+{
+    margin:0px;
+    font-size: 1.5rem;
+}
+
+
+
